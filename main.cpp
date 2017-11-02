@@ -33,6 +33,8 @@ int main(int argc, char *argv[])
 
     cout << "* Call method func() for object child" << endl;
     child.func();
+    
+    cout << "Duck" << endl;
 
     return 0;
 }
