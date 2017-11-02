@@ -26,6 +26,9 @@ int main(int argc, char *argv[])
     cout << "* Create Object child" << endl;
     Child child;
 
+    for (int i = 0; i < 5; i++)
+	cout << i << endl;
+
     cout << "* Call method func() for object base" << endl;
     base.func();
 
