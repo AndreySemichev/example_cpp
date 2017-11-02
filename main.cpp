@@ -19,6 +19,7 @@ public:
 int main(int argc, char *argv[])
 {
     cout << "* Create Object child" << endl;
+    cout << 12 + 13 << endl;
     Child child;
 
     return 0;
